@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>  · 날라랑 개발기록</title><meta name="description" content=" - Nalrarang"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://nalrarang.github.io/atom.xml" title="날라랑 개발기록"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/nalrarang.svg" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://nalrarang.com" target="_blank" class="nav-list-link">PORTFOLIO</a></li><li class="nav-list-item"><a href="https://github.com/nalrarang" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title"></h1><div class="post-info">Jun 10, 2018</div><div class="post-content"><h2 id="Javascript의-자료형"><a href="#Javascript의-자료형" class="headerlink" title="Javascript의 자료형"></a>Javascript의 자료형</h2><p><img src="https://s3-ap-northeast-1.amazonaws.com/media.buzzni.net/blog/js2.jpg" alt="alt_text"></p>
+<p>Javascript는 6가지의 Primitive 데이터 타입과<br>Object 타입의 자료형을 사용한다.(총 7가지 Type)</p>
+<p>Primitive 타입으로는</p>
+<ul>
+<li>Boolean Type</li>
+<li>Null Type</li>
+<li>Undefined Type</li>
+<li>Number Type</li>
+<li>String Type</li>
+<li>Symbol Type<br>이 있고, 그외의 복합적인 자료형으로 Object Type이 따로 있다.</li>
+</ul>
+<p>###Primitive Type<br><strong>Primitive타입은 원시 자료형</strong>이라고 하며<br>값이 유한하고 Immutable(불변함)을 따른다.<br>또한, 데이터간의 비교가 가능하다.</p>
+<p><strong>Boolean</strong>은 논리요소로 true 와 false로 값을 표현한다.<br><strong>Null</strong>은 말 그대로 Null값으로 빈 값(없는 값)<br><strong>undefined</strong> 는 변수 선언 후 값이 없을 때의 값으로 null과 undefined는 다른것으로 취급해야 함<br><strong>Number</strong>는 다른 프로그래밍언어와 달리 정수, 소수가 다 포함된 숫자의 자료형으로 NaN과 +-Infinity라는 특별한 값을 가지기도 한다.<br><strong>String</strong>타입은 문자열 데이터를 나타내는데 사용하며 +연산자를 이용해 문자열끼리를 합칠 수 있다.<br><strong>Symbol</strong>타입은 ECMAScript 6 에서 새로 추가된 타입으로<br>고유한 특정 값을 말한다.  Symbol을 생성하면 고유함을 보장하기 때문에 이름의 충돌과같은 문제를 막을 수 있다.</p>
+<p>###Object Type<br>Object타입은 Primitive 타입을 제외한 나머지 자료형을 말한다.<br><strong>Array, Date, Object, RegExp</strong> 등과 같은 자료형들은 모두 Object타입이며 <strong>Function</strong>도 마찬가지로 Object 타입이지만 typeof함수로 검사했을때 특이하게도 function으로 표시된다.(이유는 저도..모릅니다..ㅠㅠ)<br>모든 Object타입은 Key, Value값을 통해 나타낼수 있고,<br>데이터의 모양을 무한하게 만들 수 있다.<br>또한 같은 값의 배열, 오브젝트라도 각각의 저장된 메모리가 다르기 때문에 데이터 비교를 할 수 없다.</p>
+<p>####Reference</p>
+<ul>
+<li><a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures" target="_blank" rel="noopener">MDN web docs</a></li>
+<li><a href="https://blog.perfectacle.com/2017/04/16/es6-symbol/" target="_blank" rel="noopener">오늘도 끄적끄적님 Blog</a></li>
+<li><a href="http://hacks.mozilla.or.kr/2015/09/es6-in-depth-symbols/" target="_blank" rel="noopener">Hacks-웹기술블로그</a></li>
+</ul>
+</div></article></div></main><footer><div class="paginator"><a href="/2018/05/23/buzznidaily-react-diary/" class="next">NEXT</a></div><div class="copyright"><p>© 2017 - 2018 <a href="http://nalrarang.github.io">Nalrarang</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-52576645-4",'auto');ga('send','pageview');</script></body></html>
